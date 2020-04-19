@@ -7,6 +7,7 @@ function passwordGen() {
   for (var i = 0; i < length; i++) {
     result += characters.charAt(Math.floor(Math.random() * charactersLength));
   }
+  passwordText.value = result
   return result;
 }
 
@@ -45,11 +46,12 @@ function genPasswordLength(passwordLength) {
   return passwordLength;
 }
 
+
 var generateBtn = document.querySelector("#generate");
 var passwordText = document.querySelector("#password");
 //passwordText.value = passwordGen();  <--- better?
-var password = passwordGen();
-passwordText.value = password;
+
+
 
 
 // Add event listener to generate button
