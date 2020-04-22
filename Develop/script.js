@@ -40,9 +40,10 @@ function genPossibleCharacters(possibleCharacters) {
 var passwordLength = 0
 //Prompts user to select a length within 8 and 128
 function genPasswordLength(passwordLength) {
-  while (passwordLength < 8 || passwordLength > 128) {
-    var passwordLength = prompt('Please choose the length of your password between 8 and 128 characters in Length');
+  while (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength) === true) {
+    var passwordLength = parseInt(prompt('Please choose the length of your password between 8 and 128 characters in Length'));
   }
+    
   return passwordLength;
 }
 
