@@ -2,7 +2,7 @@
 ![Github Badge](https://img.shields.io/github/languages/top/juanwithouttheotter/Pass-Gen)
 ![Github Badge](https://img.shields.io/github/languages/count/juanwithouttheotter/Pass-Gen?color=green)
 
-See website at [Github](https://juanwithouttheotter.github.io/Pass-Gen/)
+See website [here!](https://juanwithouttheotter.github.io/Pass-Gen/)
 
 
 ## Contents
